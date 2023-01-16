@@ -1,0 +1,38 @@
+fun main() {
+/* POO - Programação Orientada a Objetos - Simular coisas da realidade na programação
+ * Objetos - possui Estados (nome, idade, endereço, altura, etc.), comportamentos (andar, correr, dormir, comer, etc.)
+ * POO é dividida em:
+ * Classes - modelos que servem para construção de objetos derivados dele mesmo (classe pessoas), recebem atributos (estados) 
+ * Métodos - instâncias da classe, forma de agir
+ * 
+ * Estrutura de uma classe:
+ * class Nome(){ocorridos de um objeto}
+ *
+ *   val ricardo = Pessoa()//Instanciando uma pessoa
+ *   ricardo.nome = "Ricardo"
+ *   ricardo.altura = 2.15
+ *   ricardo.corDosOlhos = "verde"
+ *   ricardo.peso = 100.0
+ *   println(ricardo.nome) //para exibir um atributo específico
+ *   
+ * }
+ */
+    val convidado1 = Pessoa("Claudia", 1.69, "Rosa Choque", 81.0)
+    val convidado2 = Pessoa("Juliana", 1.50, "Azul", 53.5)
+    val convidado3 = Pessoa("Iranildo", 1.10, "Verde", 70.5)
+    val convidado4 = Pessoa("Robson", 1.90, "Castanho", 98.5)
+    val convidado5 = Pessoa("Raimundo", 1.75, "Azul", 86.4)
+    val convidado6 = Pessoa("Sheila", 3.141592653589793, "Vermelho", 167.0)
+    println(convidado6.peso)
+}
+    
+class Pessoa(val nome: String, val altura: Double, val corDosOlhos: String, val peso: Double){
+/* Declarando atributos para classe
+ * var nome = ""
+ * var altura = 0.0
+ * var corDosOlhos = ""
+ * var peso = 0.0
+ */
+    
+    
+}
