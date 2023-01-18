@@ -1,0 +1,19 @@
+fun main() {
+     
+    var gato = Animal("Mamífero", "Ração", 1)
+    
+   println ("Eu não tenho bichinho, então falarei do da minha vó.")
+   println ("Minha vó tem um gato, ela é um " +gato.classe+ ", ela tem " +gato.idade+ " anos, ela come " +gato.dieta)
+   gato.a(false)
+    
+}
+
+class Animal(val classe: String, val dieta: String, val idade: Int){
+    fun a(bravo: Boolean){
+    if(bravo == true){
+        println ("O Gato está mordendo seu tênis")
+    }else{
+        println ("O Gato está mordendo outro tênis")
+    }
+}   
+}
