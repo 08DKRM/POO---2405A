@@ -1,0 +1,14 @@
+fun main() {
+    val convidado1 = Pessoa("Claudia", 1.69, "Rosa Choque", 81.0)
+    val convidado2 = Pessoa("Juliana", 1.50, "Azul", 53.5)
+    val convidado3 = Pessoa("Iranildo", 1.10, "Verde", 70.5)
+    val convidado4 = Pessoa("Robson", 1.90, "Castanho", 98.5)
+    val convidado5 = Pessoa("Raimundo", 1.75, "Azul", 86.4)
+    val convidado6 = Pessoa("Sheila", 3.141592653589793, "Vermelho", 167.0)
+    println(convidado6.peso)
+}
+    
+class Pessoa(val nome: String, val altura: Double, val corDosOlhos: String, val peso: Double){
+    
+    
+}
