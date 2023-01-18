@@ -22,3 +22,14 @@
  * var corDosOlhos = ""
  * var peso = 0.0
  */
+
+/*
+ * val dinossauro = Animal("Réptil", 'M', "Rio Tietê", "Carnívoro", 999999999, true)
+ *
+ * println(dinossauro.genero)
+ */   
+ 
+ /*
+ * Métodos - comportamentos da classe, são declarados usando funções
+ */
+   
