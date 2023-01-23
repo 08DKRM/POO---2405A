@@ -1,0 +1,11 @@
+fun main() {
+    val conta1 = contaBanco (1111, 0.1, "JP Morgan Chase", "JP Morgan Chase")
+    conta1.verSaldo()
+}
+    
+class contaBanco(var senha: Int, var saldo: Double, var banco: String, var dono: String){
+   
+    fun verSaldo(){
+        println("O saldo da sua conta é R$$saldo")
+    }
+}
