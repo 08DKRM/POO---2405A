@@ -1,38 +1,3 @@
-/* POO - Programação Orientada a Objetos - Simular coisas da realidade na programação
- * Objetos - possui Estados (nome, idade, endereço, altura, etc.), comportamentos (andar, correr, dormir, comer, etc.)
- * POO é dividida em:
- * Classes - modelos que servem para construção de objetos derivados dele mesmo (classe pessoas), recebem atributos (estados) 
- * Métodos - instâncias da classe, forma de agir
- * 
- * Estrutura de uma classe:
- * class Nome(){ocorridos de um objeto}
- *
- *   val ricardo = Pessoa()//Instanciando uma pessoa
- *   ricardo.nome = "Ricardo"
- *   ricardo.altura = 2.15
- *   ricardo.corDosOlhos = "verde"
- *   ricardo.peso = 100.0
- *   println(ricardo.nome) //para exibir um atributo específico
- *   
- * }
- */
-/* Declarando atributos para classe
- * var nome = ""
- * var altura = 0.0
- * var corDosOlhos = ""
- * var peso = 0.0
- */
-
-/*
- * val dinossauro = Animal("Réptil", 'M', "Rio Tietê", "Carnívoro", 999999999, true)
- *
- * println(dinossauro.genero)
- */   
- 
- /*
- * Métodos - comportamentos da classe, são declarados usando funções
- */
-   
 fun main() {
     val conta1 = contaBanco (1111, 3.14, "JP Morgan Chase", "JP Morgan Chase")
     val conta2 = contaBanco (6969, 666.00, "Banco Capiroto", "Lucifer")
